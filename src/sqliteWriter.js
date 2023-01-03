@@ -14,6 +14,7 @@ function createTable() {
     , armor            integer null
     , damage           integer null
     , hp               integer null
+    , lastSeen         datetime null
   )`);
 }
 
@@ -28,6 +29,7 @@ function prepareStmt() {
     , armor
     , damage
     , hp
+    , lastSeen
   )
   VALUES (
       ?
@@ -39,6 +41,7 @@ function prepareStmt() {
     , ?
     , ?
     , ?
+    , current_timestamp
   )`);
 }
 

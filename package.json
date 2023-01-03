@@ -1,6 +1,6 @@
 {
   "name": "ufsg-simple-creature-scraper",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "UFSG Simple Creature Scraper - guide.fallensword.com",
   "engines": {
     "node": "16.x"
@@ -12,13 +12,13 @@
   "author": "atompkins",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.24.2"
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
   },
   "dependencies": {
-    "axios": "^0.22.0",
+    "axios": "^1.2.2",
     "cheerio": "^1.0.0-rc.10",
-    "sqlite3": "^5.0.2"
+    "sqlite3": "^5.1.4"
   }
 }
