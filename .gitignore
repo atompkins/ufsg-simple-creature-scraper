@@ -62,3 +62,5 @@ typings/
 
 # scraper output files
 data.sqlite
+
+.DS_Store
